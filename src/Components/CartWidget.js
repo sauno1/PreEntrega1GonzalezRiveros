@@ -1,11 +1,15 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { useCart } from '../CartContext';
+
 function CartWidget() {
-    return (
-      <>
-     <img src="/carrito-de-compras.png" alt="logocarrito" />
-     <p>1</p>
-        
-      </>
-    );
-  }
-  
-  export default CartWidget
+  const { itemCount } = useCart();
+
+  return (
+    <Link to="/carrito">
+      <img src="/carrito-de-compras.png" alt="logocarrito" />
+    </Link>
+  );
+}
+
+export default CartWidget;

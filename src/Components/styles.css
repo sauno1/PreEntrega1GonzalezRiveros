@@ -1,0 +1,242 @@
+/* Estilos para el botón "Ver más" */
+.view-button {
+    background-color: #a1a31291;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 15px;
+    cursor: pointer;
+  }
+  
+  .view-button:hover {
+    background-color: #eaec41;
+    border: 1px solid #eaec41;
+    transition: border 0.3s ease;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    width: 500px;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a1a31291;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  
+  .navbar-left {
+    flex: 1;
+  }
+  
+  .navbar-center {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .navbar-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar-item-count {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  .carrito-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .productos-container {
+    width: 60%;
+  }
+  
+  .producto-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .producto-card img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .info-container {
+    width: 35%;
+  }
+  
+  .form-container {
+    margin-bottom: 10px;
+  }
+  
+  .comprar-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comprar-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .compra-finalizada {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+  }
+  
+  
+  .page-container {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
+  }
+  
+  .footer {
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-contact,
+  .footer-address {
+    flex: 1;
+  }
+  
+  .footer-contact p,
+  .footer-address p {
+    margin: 0;
+  }
+  
+  .footer-social img {
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .product-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-details {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .product-details h1 {
+    font-size: 24px;
+  }
+  
+  .product-details h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .product-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-details ul li {
+    margin-bottom: 10px;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .quantity-controls button {
+    background-color: #a1a31291;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 5px;
+  }
+  
+  .quantity-controls span {
+    font-size: 18px;
+  }
+  
+  button {
+    background-color: #a1a31291;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+  
+  .loading,
+  .product-not-found {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+  }
+  
+  .form-container input {
+    border: 1px solid #ccc; 
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
